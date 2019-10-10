@@ -111,11 +111,11 @@ describe('sortByDate function', () => {
 
 	it('same data', () => {
     const order1 = {
-      date: 1552481120000
+      date: 1692481120000
     };
 
     const order2 = {
-      date: 1552481120000
+      date: 1692481120000
     };
 
 		const result = sortByDate(order1, order2);
@@ -125,11 +125,11 @@ describe('sortByDate function', () => {
 
 	it('first data smaller', () => {
     const order1 = {
-      date: 1552481110000
+      date: 1002481110000
     };
 
     const order2 = {
-      date: 1552481120000
+      date: 1592481120000
     };
 
     const result = sortByDate(order1, order2);
@@ -139,7 +139,7 @@ describe('sortByDate function', () => {
 
 	it('second data smaller', () => {
     const order1 = {
-      date: 1552481120000
+      date: 1692481220000
     };
 
     const order2 = {
